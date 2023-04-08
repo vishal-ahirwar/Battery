@@ -1,4 +1,4 @@
-//very simple c program which will limit the chargin of you laptop to extend its battery life, how cool is that;)
+//very simple c program which will limit the chargin of your's laptop to extend its battery life, how cool is that;)
 //Tested on Asus Vivobook 15 Pro
 
 //Copyright(c) Vishal Ahirwar. All rights reserved.
