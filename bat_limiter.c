@@ -22,7 +22,7 @@ int main(int argc,char**archv)
     {
         char*ouput;
         threshold=strtol(archv[1],&ouput,10);
-        if(*ouput || threshold>100 || threshold<0)
+        if(*ouput || threshold<=100 || threshold>0)
         {
             printf("[error] please provide charging threshold in integer format which should be in between 0 to 100\n");
             return 1;
