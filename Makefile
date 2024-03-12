@@ -4,7 +4,7 @@ DESTDIR=/usr/bin
 
 TARGET=vbat
 all:
-	$(CC) bat_limiter.c -o $(TARGET)
+	$(CC) *.c -o $(TARGET)
 clean:
 	rm $(TARGET)
 
