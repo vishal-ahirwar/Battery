@@ -3,7 +3,7 @@
 echo "Creating a Service file in /etc/systemd/system"
 
 sudo make install
-
+sudo rm -r  /etc/systemd/system/BatteryLimitCharin.service
 sudo touch /etc/systemd/system/BatteryLimitCharin.service
 while read -r line;
 do

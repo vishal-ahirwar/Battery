@@ -1,12 +1,8 @@
 [Unit]
-After=network-online.target
 Description=Limit Set for battery charging
-DefaultDependencies=no
 
 [Service]
-Type=simple
 ExecStart=/usr/bin/vbat
 
 [Install]
-Alias=BatteryLimitCharging.service
 WantedBy=multi-user.target
