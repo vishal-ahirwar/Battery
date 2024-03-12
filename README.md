@@ -15,10 +15,9 @@ Give executable permission to Setup.sh
 chmod u+x ./Script.sh
 ```
 
-Than Simple Execute Script.sh 
+Then Simply Execute Script.sh 
 
 ```
 ./Script.sh
-
 ```
 Now you are ready to Go :)
