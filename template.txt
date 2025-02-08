@@ -2,7 +2,7 @@
 Description=Limit Set for battery charging
 
 [Service]
-ExecStart=/usr/bin/vbat 
+ExecStart=/usr/local/bin/bat 
 
 [Install]
 WantedBy=multi-user.target
