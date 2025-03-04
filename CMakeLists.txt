@@ -12,7 +12,7 @@ set(COMPANY "Vishal Ahirwar")
 string(TIMESTAMP CURRENT_YEAR "%Y")
 set(COPYRIGHT "Copyright(c) ${CURRENT_YEAR} Vishal Ahirwar.")
 include_directories(src ${CMAKE_BINARY_DIR})
-configure_file(batconfig.h.in batconfig.h)
+configure_file(res/batconfig.h.in batconfig.h)
 #@find
 set(SOURCE ./src/main.c)#add your additional source file here!
 add_executable(${PROJECT_NAME} ${SOURCE})
